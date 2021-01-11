@@ -50,6 +50,28 @@ hr{
     padding: 0rem 0.5rem;
  }
 
+ /**navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+/**next level of inheritance**/
+
+.navigation .link{
+    color:white;
+
+}
+
 
 
 
