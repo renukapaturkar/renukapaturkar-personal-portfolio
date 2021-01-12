@@ -9,12 +9,20 @@
 body{
     font-family: 'Montserrat',
     sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 42rem;
 }
 
 hr{
     margin: 2rem 0rem;
 }
 
+
+/** spaces **/
+.margin-md{
+    padding: 2rem;
+}
 /** container **/
 .container{
     padding: 0rem 1 rem;
@@ -83,6 +91,7 @@ hr{
 /**header**/
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
